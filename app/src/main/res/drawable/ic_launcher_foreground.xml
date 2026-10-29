@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  「沏」图标：一盏茶碗，碗口一道金线（呼应 Hi-Res 金），上方两缕热气。
+  108x108 视口，图形集中在中心 72x72 安全区内。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 碗身 -->
+    <path
+        android:pathData="M32,48 L76,48 C76,64.5 67,79 54,79 C41,79 32,64.5 32,48 Z"
+        android:fillColor="#4A7C59" />
+
+    <!-- 碗底圈足 -->
+    <path
+        android:pathData="M45,79 L63,79 L61,85 L47,85 Z"
+        android:fillColor="#3C6649" />
+
+    <!-- 碗口金线 -->
+    <path
+        android:pathData="M32,48 L76,48"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round" />
+
+    <!-- 热气：左缕 -->
+    <path
+        android:pathData="M46,39 C46,33 52,32 52,26"
+        android:strokeColor="#8FA898"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- 热气：右缕 -->
+    <path
+        android:pathData="M62,39 C62,34 56,33 56,28"
+        android:strokeColor="#8FA898"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+</vector>
