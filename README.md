@@ -7,10 +7,17 @@
 - Kotlin + Jetpack Compose + Media3（ExoPlayer）
 - 不依赖 Google Play 服务、Firebase、任何账号体系
 
+## 下载安装
+
+前往 [Releases](https://github.com/4qiek/qi-music-player/releases/latest) 下载 `app-release.apk`，直接侧载安装。
+首次启动授予「音乐和音频」权限，再从顶部齿轮 →「导入本地歌曲文件夹」选择音乐目录。
+
 ## 构建
 
 ```bash
-cd qi-player
+git clone https://github.com/4qiek/qi-music-player.git
+cd qi-music-player
+# 新建 local.properties，写入：sdk.dir=<你的 Android SDK 路径>
 ./gradlew assembleRelease
 # 产物：app/build/outputs/apk/release/app-release.apk
 ```
